@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+
+    <br></br>
+
+    <button id="getWeapons">Check Weapon Inventory</button>
+
+    <p>add item</p>
+    <form id="addForm">
+      <input type="text" placeholder="Add item" id="addInput">
+      <button>Submit</button>
+    </form>
+
+    <p>delete item</p>
+    <form id="deleteForm">
+      <input type="text" placeholder="Enter index to delete" id="deleteInput">
+      <button>Submit</button>
+    </form>
+
+    <p>edit item</p>
+    <form id="editForm">
+      <input type="text" placeholder="Enter index to edit" id="editIndex">
+      <input type="text" placeholder="Enter new item" id="editInput">
+      <button>Submit</button>
+    </form>
+
+    <div id="displayWeapons"></div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
